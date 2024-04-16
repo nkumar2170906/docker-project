@@ -6,4 +6,4 @@ COPY index.html	 /var/www/html/index.html
 WORKDIR /var/www/html
 ENTRYPOINT ["/usr/sbin/apache2ctl"]
 CMD ["-D", "FOREGROUND"]
-EXPOSE 8080
+EXPOSE 80
